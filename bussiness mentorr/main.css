@@ -1,0 +1,84 @@
+.hero{
+    background-image: url('1.png');
+    height: 30rem;
+    background-size: cover;
+}
+.hero-row{
+    height: 30rem;
+}
+.head{
+    height: 12rem;
+    /* background-color: blue; */
+}
+.fb,.ins,.tw,.you{
+    padding: 10px 10px ;
+    background-color: rgb(182, 182, 182);
+}
+.buss{
+    background-color: white;
+}
+@media only screen and (max-width:575px){
+    #log{
+        width: 50%;
+        padding-top: 60px;
+        margin-left: 23%;
+    }
+   #home, #how ,#news, #about, #contact{
+       margin-top: 18px;
+   }
+   #how, #news{
+       /* border: 2px solid black; */
+width: 150%;
+margin-left: -20%;
+    }
+    #fb{
+        margin-left: 33%;
+       
+    }
+    #fb,#insta,#tw,#you{
+        margin-right: 10px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+    #hero-container{
+        height: 39em;
+    }
+    #hero{
+        margin-bottom: -15px;
+    }
+    #approach{
+        height: 87rem;
+    }
+#great{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#save,#create{
+    margin-bottom: 30px;
+}
+.dd{
+    display: flex;
+    flex-direction: column;
+    
+}
+#finan,#fi{
+    width: 95%;
+    margin-left: 3%;
+}
+#what{
+    text-align: center;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+#larki{
+    width: 106.65%;
+    margin-left: -15px;
+}
+#one{
+display: none;
+margin-bottom: 20%;
+}
+#new{
+    margin-top: 6%;
+}
+}
